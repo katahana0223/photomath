@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */; };
+		2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */; };
+		2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */; };
+		2BA2AEF01E2F865E0093C4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */; };
+		2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */; };
+		2BA2AEFE1E2F865F0093C4BE /* photo_mathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */; };
+		2BA2AF091E2F865F0093C4BE /* photo_mathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA2AEFA1E2F865F0093C4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA2AEDD1E2F865E0093C4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA2AEE41E2F865E0093C4BE;
+			remoteInfo = "photo math";
+		};
+		2BA2AF051E2F865F0093C4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA2AEDD1E2F865E0093C4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA2AEE41E2F865E0093C4BE;
+			remoteInfo = "photo math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA2AEE51E2F865E0093C4BE /* photo math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BA2AEED1E2F865E0093C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA2AEF21E2F865E0093C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA2AEF41E2F865E0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA2AEF91E2F865F0093C4BE /* photo mathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo mathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_mathTests.swift; sourceTree = "<group>"; };
+		2BA2AEFF1E2F865F0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA2AF041E2F865F0093C4BE /* photo mathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo mathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_mathUITests.swift; sourceTree = "<group>"; };
+		2BA2AF0A1E2F865F0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA2AEE21E2F865E0093C4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AEF61E2F865F0093C4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AF011E2F865F0093C4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA2AEDC1E2F865E0093C4BE = {
+			isa = PBXGroup;
+			children = (
+				2BA2AEE71E2F865E0093C4BE /* photo math */,
+				2BA2AEFC1E2F865F0093C4BE /* photo mathTests */,
+				2BA2AF071E2F865F0093C4BE /* photo mathUITests */,
+				2BA2AEE61E2F865E0093C4BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA2AEE61E2F865E0093C4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2AEE51E2F865E0093C4BE /* photo math.app */,
+				2BA2AEF91E2F865F0093C4BE /* photo mathTests.xctest */,
+				2BA2AF041E2F865F0093C4BE /* photo mathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA2AEE71E2F865E0093C4BE /* photo math */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */,
+				2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */,
+				2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */,
+				2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */,
+				2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */,
+				2BA2AEF41E2F865E0093C4BE /* Info.plist */,
+			);
+			path = "photo math";
+			sourceTree = "<group>";
+		};
+		2BA2AEFC1E2F865F0093C4BE /* photo mathTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */,
+				2BA2AEFF1E2F865F0093C4BE /* Info.plist */,
+			);
+			path = "photo mathTests";
+			sourceTree = "<group>";
+		};
+		2BA2AF071E2F865F0093C4BE /* photo mathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */,
+				2BA2AF0A1E2F865F0093C4BE /* Info.plist */,
+			);
+			path = "photo mathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA2AEE41E2F865E0093C4BE /* photo math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA2AF0D1E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo math" */;
+			buildPhases = (
+				2BA2AEE11E2F865E0093C4BE /* Sources */,
+				2BA2AEE21E2F865E0093C4BE /* Frameworks */,
+				2BA2AEE31E2F865E0093C4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "photo math";
+			productName = "photo math";
+			productReference = 2BA2AEE51E2F865E0093C4BE /* photo math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA2AEF81E2F865F0093C4BE /* photo mathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA2AF101E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathTests" */;
+			buildPhases = (
+				2BA2AEF51E2F865F0093C4BE /* Sources */,
+				2BA2AEF61E2F865F0093C4BE /* Frameworks */,
+				2BA2AEF71E2F865F0093C4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA2AEFB1E2F865F0093C4BE /* PBXTargetDependency */,
+			);
+			name = "photo mathTests";
+			productName = "photo mathTests";
+			productReference = 2BA2AEF91E2F865F0093C4BE /* photo mathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BA2AF031E2F865F0093C4BE /* photo mathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA2AF131E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathUITests" */;
+			buildPhases = (
+				2BA2AF001E2F865F0093C4BE /* Sources */,
+				2BA2AF011E2F865F0093C4BE /* Frameworks */,
+				2BA2AF021E2F865F0093C4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA2AF061E2F865F0093C4BE /* PBXTargetDependency */,
+			);
+			name = "photo mathUITests";
+			productName = "photo mathUITests";
+			productReference = 2BA2AF041E2F865F0093C4BE /* photo mathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA2AEDD1E2F865E0093C4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "片岡";
+				TargetAttributes = {
+					2BA2AEE41E2F865E0093C4BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2BA2AEF81E2F865F0093C4BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA2AEE41E2F865E0093C4BE;
+					};
+					2BA2AF031E2F865F0093C4BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA2AEE41E2F865E0093C4BE;
+					};
+				};
+			};
+			buildConfigurationList = 2BA2AEE01E2F865E0093C4BE /* Build configuration list for PBXProject "photo math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA2AEDC1E2F865E0093C4BE;
+			productRefGroup = 2BA2AEE61E2F865E0093C4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA2AEE41E2F865E0093C4BE /* photo math */,
+				2BA2AEF81E2F865F0093C4BE /* photo mathTests */,
+				2BA2AF031E2F865F0093C4BE /* photo mathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA2AEE31E2F865E0093C4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */,
+				2BA2AEF01E2F865E0093C4BE /* Assets.xcassets in Resources */,
+				2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AEF71E2F865F0093C4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AF021E2F865F0093C4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA2AEE11E2F865E0093C4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */,
+				2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AEF51E2F865F0093C4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA2AEFE1E2F865F0093C4BE /* photo_mathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA2AF001E2F865F0093C4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA2AF091E2F865F0093C4BE /* photo_mathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA2AEFB1E2F865F0093C4BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA2AEE41E2F865E0093C4BE /* photo math */;
+			targetProxy = 2BA2AEFA1E2F865F0093C4BE /* PBXContainerItemProxy */;
+		};
+		2BA2AF061E2F865F0093C4BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA2AEE41E2F865E0093C4BE /* photo math */;
+			targetProxy = 2BA2AF051E2F865F0093C4BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA2AEED1E2F865E0093C4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA2AEF21E2F865E0093C4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA2AF0B1E2F865F0093C4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BA2AF0C1E2F865F0093C4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA2AF0E1E2F865F0093C4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "photo math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2BA2AF0F1E2F865F0093C4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "photo math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2BA2AF111E2F865F0093C4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "photo mathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-mathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo math.app/photo math";
+			};
+			name = Debug;
+		};
+		2BA2AF121E2F865F0093C4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "photo mathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-mathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo math.app/photo math";
+			};
+			name = Release;
+		};
+		2BA2AF141E2F865F0093C4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "photo mathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-mathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "photo math";
+			};
+			name = Debug;
+		};
+		2BA2AF151E2F865F0093C4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "photo mathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-mathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "photo math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA2AEE01E2F865E0093C4BE /* Build configuration list for PBXProject "photo math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA2AF0B1E2F865F0093C4BE /* Debug */,
+				2BA2AF0C1E2F865F0093C4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA2AF0D1E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA2AF0E1E2F865F0093C4BE /* Debug */,
+				2BA2AF0F1E2F865F0093C4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BA2AF101E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA2AF111E2F865F0093C4BE /* Debug */,
+				2BA2AF121E2F865F0093C4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BA2AF131E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA2AF141E2F865F0093C4BE /* Debug */,
+				2BA2AF151E2F865F0093C4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA2AEDD1E2F865E0093C4BE /* Project object */;
+}
