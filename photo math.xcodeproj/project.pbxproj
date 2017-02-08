@@ -10,7 +10,6 @@
 		2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */; };
 		2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */; };
 		2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */; };
-		2BA2AEF01E2F865E0093C4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */; };
 		2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */; };
 		2BA2AEFE1E2F865F0093C4BE /* photo_mathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */; };
 		2BA2AF091E2F865F0093C4BE /* photo_mathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */; };
@@ -38,7 +37,6 @@
 		2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BA2AEED1E2F865E0093C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BA2AEF21E2F865E0093C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BA2AEF41E2F865E0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA2AEF91E2F865F0093C4BE /* photo mathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo mathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +98,6 @@
 				2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */,
 				2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */,
 				2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */,
-				2BA2AEEF1E2F865E0093C4BE /* Assets.xcassets */,
 				2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */,
 				2BA2AEF41E2F865E0093C4BE /* Info.plist */,
 			);
@@ -233,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */,
-				2BA2AEF01E2F865E0093C4BE /* Assets.xcassets in Resources */,
 				2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +499,7 @@
 				2BA2AF0F1E2F865F0093C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BA2AF101E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +508,7 @@
 				2BA2AF121E2F865F0093C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BA2AF131E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +517,7 @@
 				2BA2AF151E2F865F0093C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
