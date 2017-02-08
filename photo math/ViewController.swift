@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var shikiTextField: UITextField!
+    @IBOutlet var label: UILabel!
     override func viewDidLoad() {
         let shikiTextField  =  UILabel()
          shikiTextField.text = "876"
@@ -33,11 +34,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        keisan(textField.text!)
+        label.text=String(keisan(textField.text!))
         textField.resignFirstResponder()
         return true
     }
-    func keisan(_ str: String){
+    
+    
+    func keisan(_ str: String) -> Int {
         var number = 0      //1項目（上の式の場合、「3」）
         var number2 = 0     //2項目（上の式の場合、「2」）
         var number3 = 0     //3項目（上の式の場合、「1」がはいる）
@@ -78,11 +81,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
         //FINAL ANSWER(最後の答え)
-        print(number3)
+        return number3
 
-
-        
-        
     }
     
     var number1: Int = 0
