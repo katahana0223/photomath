@@ -31,11 +31,20 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDh-QU-nxY">
                                 <rect key="frame" x="90" y="110" width="195" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.44673713240000001" green="0.73725490199999999" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.40320840140000003" green="0.67450980390000004" blue="0.84822984749999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOG-Bp-LgI">
+                                <rect key="frame" x="128" y="488" width="119" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="camera"/>
+                                <connections>
+                                    <segue destination="Btr-HA-jA0" kind="presentation" modalTransitionStyle="partialCurl" id="aew-2P-bH1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -47,6 +56,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="sUI-a6-06r">
+            <objects>
+                <viewController id="Btr-HA-jA0" customClass="CameraViewController" customModule="photo_math" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SJD-87-Y4o"/>
+                        <viewControllerLayoutGuide type="bottom" id="YRW-eH-s9y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Msc-ei-WcD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VbH-Be-jzI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drB-c2-qf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="785"/>
         </scene>
     </scenes>
 </document>
