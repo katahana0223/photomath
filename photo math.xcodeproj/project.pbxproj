@@ -13,7 +13,10 @@
 		2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */; };
 		2BA2AEFE1E2F865F0093C4BE /* photo_mathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */; };
 		2BA2AF091E2F865F0093C4BE /* photo_mathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */; };
-		2BC4AD2F1E54642F0078E267 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4AD2E1E54642F0078E267 /* CameraViewController.swift */; };
+		2BC4AD2F1E54642F0078E267 /* CameraTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */; };
+		36AC300B28FD37D22BFD31F3 /* Pods_photo_mathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DADEBFC21965C14B5DC41F /* Pods_photo_mathTests.framework */; };
+		4381F0985BFA7C5814228D21 /* Pods_photo_math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E253D79BCD113EE4B37904E /* Pods_photo_math.framework */; };
+		C4EEF2583C82BA92A812DF7B /* Pods_photo_mathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FE04787D259F7D96C4701F /* Pods_photo_mathUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E253D79BCD113EE4B37904E /* Pods_photo_math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo math.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo math/Pods-photo math.release.xcconfig"; sourceTree = "<group>"; };
+		1B83DE49F391E9A41C342DB8 /* Pods-photo mathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo math.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo math/Pods-photo math.debug.xcconfig"; sourceTree = "<group>"; };
 		2BA2AEE51E2F865E0093C4BE /* photo math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +53,12 @@
 		2BA2AF041E2F865F0093C4BE /* photo mathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo mathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_mathUITests.swift; sourceTree = "<group>"; };
 		2BA2AF0A1E2F865F0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BC4AD2E1E54642F0078E267 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTwoViewController.swift; sourceTree = "<group>"; };
+		664A2BF447A3B02D88841009 /* Pods-photo mathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathTests/Pods-photo mathTests.release.xcconfig"; sourceTree = "<group>"; };
+		76FE04787D259F7D96C4701F /* Pods_photo_mathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_mathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DADEBFC21965C14B5DC41F /* Pods_photo_mathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_mathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6616BDA0E77FE379B5D333E /* Pods-photo mathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathTests/Pods-photo mathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AC7E218CF7B1D397637293 /* Pods-photo mathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4381F0985BFA7C5814228D21 /* Pods_photo_math.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AC300B28FD37D22BFD31F3 /* Pods_photo_mathTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EEF2583C82BA92A812DF7B /* Pods_photo_mathUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				2BA2AEFC1E2F865F0093C4BE /* photo mathTests */,
 				2BA2AF071E2F865F0093C4BE /* photo mathUITests */,
 				2BA2AEE61E2F865E0093C4BE /* Products */,
+				532C109F5FD2AA299B46CE30 /* Pods */,
+				FBA7C87CB71BE5EA749CFABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +116,7 @@
 			children = (
 				2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */,
 				2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */,
-				2BC4AD2E1E54642F0078E267 /* CameraViewController.swift */,
+				2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */,
 				2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */,
 				2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */,
 				2BA2AEF41E2F865E0093C4BE /* Info.plist */,
@@ -125,6 +142,29 @@
 			path = "photo mathUITests";
 			sourceTree = "<group>";
 		};
+		532C109F5FD2AA299B46CE30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */,
+				12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */,
+				C6616BDA0E77FE379B5D333E /* Pods-photo mathTests.debug.xcconfig */,
+				664A2BF447A3B02D88841009 /* Pods-photo mathTests.release.xcconfig */,
+				F9AC7E218CF7B1D397637293 /* Pods-photo mathUITests.debug.xcconfig */,
+				1B83DE49F391E9A41C342DB8 /* Pods-photo mathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBA7C87CB71BE5EA749CFABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E253D79BCD113EE4B37904E /* Pods_photo_math.framework */,
+				92DADEBFC21965C14B5DC41F /* Pods_photo_mathTests.framework */,
+				76FE04787D259F7D96C4701F /* Pods_photo_mathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BA2AF0D1E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo math" */;
 			buildPhases = (
+				B6A84E830F2E4157D662371A /* [CP] Check Pods Manifest.lock */,
 				2BA2AEE11E2F865E0093C4BE /* Sources */,
 				2BA2AEE21E2F865E0093C4BE /* Frameworks */,
 				2BA2AEE31E2F865E0093C4BE /* Resources */,
+				C098DD4445B365C8B4A308A1 /* [CP] Embed Pods Frameworks */,
+				A1628B99A8BFAE50F66B824A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BA2AF101E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathTests" */;
 			buildPhases = (
+				1940E8799FA2909162F3D060 /* [CP] Check Pods Manifest.lock */,
 				2BA2AEF51E2F865F0093C4BE /* Sources */,
 				2BA2AEF61E2F865F0093C4BE /* Frameworks */,
 				2BA2AEF71E2F865F0093C4BE /* Resources */,
+				436FE068A6B2476D0F4547BA /* [CP] Embed Pods Frameworks */,
+				A254BBB97AA5EE35F2759F35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BA2AF131E2F865F0093C4BE /* Build configuration list for PBXNativeTarget "photo mathUITests" */;
 			buildPhases = (
+				43BF942D42BD93BF0400299D /* [CP] Check Pods Manifest.lock */,
 				2BA2AF001E2F865F0093C4BE /* Sources */,
 				2BA2AF011E2F865F0093C4BE /* Frameworks */,
 				2BA2AF021E2F865F0093C4BE /* Resources */,
+				985B680862DFF3E302005F69 /* [CP] Embed Pods Frameworks */,
+				77C703B7BABF6D1B466CB036 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1940E8799FA2909162F3D060 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		436FE068A6B2476D0F4547BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo mathTests/Pods-photo mathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BF942D42BD93BF0400299D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77C703B7BABF6D1B466CB036 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985B680862DFF3E302005F69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1628B99A8BFAE50F66B824A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo math/Pods-photo math-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A254BBB97AA5EE35F2759F35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo mathTests/Pods-photo mathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A84E830F2E4157D662371A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C098DD4445B365C8B4A308A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo math/Pods-photo math-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BA2AEE11E2F865E0093C4BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +448,7 @@
 			files = (
 				2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */,
 				2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */,
-				2BC4AD2F1E54642F0078E267 /* CameraViewController.swift in Sources */,
+				2BC4AD2F1E54642F0078E267 /* CameraTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +596,7 @@
 		};
 		2BA2AF0E1E2F865F0093C4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Q23333XP;
@@ -422,6 +610,7 @@
 		};
 		2BA2AF0F1E2F865F0093C4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Q23333XP;
@@ -435,6 +624,7 @@
 		};
 		2BA2AF111E2F865F0093C4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6616BDA0E77FE379B5D333E /* Pods-photo mathTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,6 +639,7 @@
 		};
 		2BA2AF121E2F865F0093C4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664A2BF447A3B02D88841009 /* Pods-photo mathTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,6 +654,7 @@
 		};
 		2BA2AF141E2F865F0093C4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AC7E218CF7B1D397637293 /* Pods-photo mathUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "photo mathUITests/Info.plist";
@@ -476,6 +668,7 @@
 		};
 		2BA2AF151E2F865F0093C4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B83DE49F391E9A41C342DB8 /* Pods-photo mathUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "photo mathUITests/Info.plist";

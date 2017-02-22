@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A620B8F7A9DF431B022A24B4355E7C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F2A9CA20B29CB739817719A93EDA1 /* UIViewExtensions.swift */; };
+		0AB1311402BB64D439A5A355B116216F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0AFDB91CAB32B63E9877CE50A73792DF /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BE2D560BA6A6C3DED5B092F64691B5 /* PhotoLibraryViewController.swift */; };
+		0DE2B989EA1F1592E67AED334AAB6B98 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB28B0C21A92A60DB6712B2752D313 /* CameraView.swift */; };
+		12A9528C78FC91D0AABD455430F71F14 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A0FA7C7ADB6198A5E32C6118B834C5 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1921256E0012189FC4EEE2A11AE2E820 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B107B502966D95D17CEF6C60D831DF3 /* CameraViewController.swift */; };
+		19A2983E2CC133E1C50E8FB6AEAC9D9D /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1361B72E8A8736CFBEEE356378DFE /* PermissionsView.swift */; };
+		2B7B1C4B141251B7154840885562AA93 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7CF60A9851B73FFC9C0D12745B583 /* Utilities.swift */; };
+		2E91D3C8006A2607B11EB80F6CBB9C8D /* Pods-photo mathTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A27E14D2C2BA893DF5D6A003E18A23 /* Pods-photo mathTests-dummy.m */; };
+		324D3D09812A7CE0217F3FB24A850019 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B0F083EA942ACDD99BA409E3351C3F /* ConfirmViewController.xib */; };
+		3BD24FAC0C1C25415AC53CDBAC1F57DA /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089681DDBF0DDD954291EE03EFEFE9A /* PhotoLibraryAuthorizer.swift */; };
+		3BE490C1EDA78E55174BADDDFFC37F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		45AD103A7308F4575C81A34F31B4AD4C /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C1F9A8D91BB1C13B3CD05E0167360 /* ALCameraViewController-dummy.m */; };
+		51BA59E14E0098A5E7F5AA046E2FB493 /* Pods-photo math-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBAC2A6ED3CF2171D0FAC54B3EC49C4 /* Pods-photo math-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553BC485054D1E53FD3C84326AB5E969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5820152CF7B16F6FF64E13D78467376A /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65B959C500F9F431749BFC5D8C465D /* ImageCell.swift */; };
+		67BFD91AEE97E523E7CD95D783DD2C02 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1492EB227DA573882B71D4179C3FA4 /* ConfirmViewController.swift */; };
+		6CCE12F99390EF61A1B90B0851F44762 /* Pods-photo math-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B982E581BD143A9301854E1A7ABD080B /* Pods-photo math-dummy.m */; };
+		6D4FFBDD1446E07634AC24A82B729C44 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE5619A4D5EA47DB5334375404A09E6 /* UIButtonExtensions.swift */; };
+		71C6CDF93269206942878D10B432FB3A /* Pods-photo mathUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABABFCFB163919B50F5F65538B5CF44 /* Pods-photo mathUITests-dummy.m */; };
+		9123AFFF3ED82A5C23EFBCDCF44F9FFA /* Pods-photo mathTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0453258953BC7815CA569B04D657F83 /* Pods-photo mathTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91BF56F2EE96EC97E18675351C4C9B30 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D485127C52D5D0E2E7679B89F205537 /* CameraGlobals.swift */; };
+		B8CA296191061BC2F0D692EB52C4A033 /* Pods-photo mathUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0360A3DD5B21CC24F2B1920ED089C8E0 /* Pods-photo mathUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D93073BC7B63600BB2052C397F9BAF /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF67BB6F67304628C522E2B5469398 /* CameraShot.swift */; };
+		BAC6BE3D236EE941CC400A0CDDE0E1BB /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97FD575C87EEF93364758F8C74F6D846 /* CameraView.strings */; };
+		C82D76C04578BCDA05C5A6265391B649 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAEBE3E2FF1DD439EE8F9F87BE93A5B /* CameraViewControllerConstraint.swift */; };
+		CC4F616136F385FA9CDEA939FA766815 /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D1686025A090755E87B04416F96AC /* SingleImageFetcher.swift */; };
+		D1ADD9FA19AFF58FD32941D28BE1D1DA /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79876F2A9112255BCB8FCB1F93505167 /* CropOverlay.swift */; };
+		DE1A8D219A174437C79F956E941F2907 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14118CD63E0CA627EA0EAA1CD0C42D /* ImageFetcher.swift */; };
+		E24F342E883FD48A9C0AE77DA41032BC /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78921DBC65B4E52E7AD54662D55998E0 /* CameraViewAssets.xcassets */; };
+		EE5B56966CD0FBC34EFB96447E09D915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EEF987BCFB48224604D3FC617582648B /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF4EEE91963B0F2EA5AE167DF6351F /* VolumeControl.swift */; };
+		F2B32C3D5DDB7C59A06F094526AF7088 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6978D64F2E2D8A021F13C48716A603D /* SingleImageSaver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5338D454C7C0EAE9B6E20E3FACF5F4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FAEFEAF68AE19EB2D22369766AF24E;
+			remoteInfo = ALCameraViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0360A3DD5B21CC24F2B1920ED089C8E0 /* Pods-photo mathUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-photo mathUITests-umbrella.h"; sourceTree = "<group>"; };
+		0CB7CF60A9851B73FFC9C0D12745B583 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		12279745DD58F758A1E08BEB05B2B7FE /* Pods-photo mathUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-photo mathUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15C07AAB40A31046082F748FF594369B /* Pods-photo math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo math.release.xcconfig"; sourceTree = "<group>"; };
+		431AE160DFF5A65D700C58201EC33BE3 /* Pods-photo math.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-photo math.modulemap"; sourceTree = "<group>"; };
+		45B0F083EA942ACDD99BA409E3351C3F /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		4ABABFCFB163919B50F5F65538B5CF44 /* Pods-photo mathUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-photo mathUITests-dummy.m"; sourceTree = "<group>"; };
+		4E1492EB227DA573882B71D4179C3FA4 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		509BB75A951490EE18B1408BBE228420 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BAD5BE0877AD9CB1DE3A0EEA1921CF /* Pods-photo mathUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-photo mathUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		523F2A9CA20B29CB739817719A93EDA1 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		592F761A99F13873BD40BAAFE2B51B1D /* Pods-photo math-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-photo math-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A986CECDC710D4FD4A11614707C80EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B107B502966D95D17CEF6C60D831DF3 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		5D485127C52D5D0E2E7679B89F205537 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		5F291CEBBE1B43AE4E70A8D2FC209534 /* Pods-photo math-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo math-frameworks.sh"; sourceTree = "<group>"; };
+		63891B1452F77FB6EEC6C4CAC086D887 /* Pods-photo mathTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo mathTests-frameworks.sh"; sourceTree = "<group>"; };
+		68E92B8A0EFE9FF94956D2D9DC1AFCB4 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		71FF4EEE91963B0F2EA5AE167DF6351F /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		7263E5730CCA15BAC796FF324932196D /* Pods-photo mathUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo mathUITests-resources.sh"; sourceTree = "<group>"; };
+		770271F513B08EB86AD9397AE3101FB3 /* Pods_photo_mathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_photo_mathTests.framework; path = "Pods-photo mathTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BE2D560BA6A6C3DED5B092F64691B5 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		78921DBC65B4E52E7AD54662D55998E0 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		79876F2A9112255BCB8FCB1F93505167 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		8089681DDBF0DDD954291EE03EFEFE9A /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		83C9BBD4B9D121FD317FF02A9B217203 /* Pods-photo mathTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-photo mathTests.modulemap"; sourceTree = "<group>"; };
+		84A249EECFB8ADCF5FFCE7B1CAC851E5 /* Pods-photo math-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-photo math-acknowledgements.plist"; sourceTree = "<group>"; };
+		85A27E14D2C2BA893DF5D6A003E18A23 /* Pods-photo mathTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-photo mathTests-dummy.m"; sourceTree = "<group>"; };
+		8A508E45B06C4F57711769F3C2EC619E /* Pods-photo mathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo mathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F676F85207F846CFF8627FA36DCC8C /* Pods-photo mathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo mathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97FD575C87EEF93364758F8C74F6D846 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		9AD22D8ABC20943911EDF00D5955322C /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		9B4C1F9A8D91BB1C13B3CD05E0167360 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		9BB4D5A4298D72CD1E1037E442763579 /* Pods-photo math-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo math-resources.sh"; sourceTree = "<group>"; };
+		A378CB2C40BB481E64F87003BFF12FFD /* Pods-photo mathTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo mathTests-resources.sh"; sourceTree = "<group>"; };
+		A4AF67BB6F67304628C522E2B5469398 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		A9772CBA10FF009ECBBDBE8A30441675 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALCameraViewController.framework; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB26691E9823BF9F57FDEB4F9AA4CA98 /* Pods-photo mathTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-photo mathTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACAEBE3E2FF1DD439EE8F9F87BE93A5B /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		B0453258953BC7815CA569B04D657F83 /* Pods-photo mathTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-photo mathTests-umbrella.h"; sourceTree = "<group>"; };
+		B3A0FA7C7ADB6198A5E32C6118B834C5 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		B77FBFF0122D85F1C319BAB77D34CAF9 /* Pods-photo mathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo mathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B88D1686025A090755E87B04416F96AC /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		B982E581BD143A9301854E1A7ABD080B /* Pods-photo math-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-photo math-dummy.m"; sourceTree = "<group>"; };
+		BEBAC2A6ED3CF2171D0FAC54B3EC49C4 /* Pods-photo math-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-photo math-umbrella.h"; sourceTree = "<group>"; };
+		C633C5D702E11970E5185EBCEF0F713A /* Pods-photo mathUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-photo mathUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C7BA8D656268A4C3C5FD6AA4FA3B2DC0 /* Pods-photo mathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo mathTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCB1361B72E8A8736CFBEEE356378DFE /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		CCE5619A4D5EA47DB5334375404A09E6 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		D6978D64F2E2D8A021F13C48716A603D /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		D819A42D1BD61B55AB5312DD76543D39 /* Pods-photo mathUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-photo mathUITests.modulemap"; sourceTree = "<group>"; };
+		D822BF88EFF58DBF7E635C428E0EE627 /* Pods-photo math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-photo math.debug.xcconfig"; sourceTree = "<group>"; };
+		DCBB048462C256E2BF7F51F8D78CC547 /* Pods_photo_math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_photo_math.framework; path = "Pods-photo math.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCC826EE1C95B074B41FBB1DAB64149 /* Pods_photo_mathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_photo_mathUITests.framework; path = "Pods-photo mathUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EB28B0C21A92A60DB6712B2752D313 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		EA65B959C500F9F431749BFC5D8C465D /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		EB14118CD63E0CA627EA0EAA1CD0C42D /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		EBC38D052582A0481B751228B591BBAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F2F31569E02E796043AD36021A4791 /* Pods-photo mathTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-photo mathTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAEA91003EA5884EBF2D3C841F36AD2E /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		FEBC1890911A0D14AA9070AF803AFB33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C64B1D7F92FF76BD0D1CDA8F9EC103B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE490C1EDA78E55174BADDDFFC37F5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7F744DF49C33E3F598508B1E93FA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553BC485054D1E53FD3C84326AB5E969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E07DF9FAD36D9982BEEB027E2FE0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5B56966CD0FBC34EFB96447E09D915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF97C1D19BBD2C429E007B9A45ECFB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB1311402BB64D439A5A355B116216F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035B7D45FA962E99782D919EC6C5E1F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E92B8A0EFE9FF94956D2D9DC1AFCB4 /* ALCameraViewController.modulemap */,
+				9AD22D8ABC20943911EDF00D5955322C /* ALCameraViewController.xcconfig */,
+				9B4C1F9A8D91BB1C13B3CD05E0167360 /* ALCameraViewController-dummy.m */,
+				FAEA91003EA5884EBF2D3C841F36AD2E /* ALCameraViewController-prefix.pch */,
+				B3A0FA7C7ADB6198A5E32C6118B834C5 /* ALCameraViewController-umbrella.h */,
+				509BB75A951490EE18B1408BBE228420 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		036461455F51DC137C7859A956D90533 /* Pods-photo mathTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC1890911A0D14AA9070AF803AFB33 /* Info.plist */,
+				83C9BBD4B9D121FD317FF02A9B217203 /* Pods-photo mathTests.modulemap */,
+				F4F2F31569E02E796043AD36021A4791 /* Pods-photo mathTests-acknowledgements.markdown */,
+				AB26691E9823BF9F57FDEB4F9AA4CA98 /* Pods-photo mathTests-acknowledgements.plist */,
+				85A27E14D2C2BA893DF5D6A003E18A23 /* Pods-photo mathTests-dummy.m */,
+				63891B1452F77FB6EEC6C4CAC086D887 /* Pods-photo mathTests-frameworks.sh */,
+				A378CB2C40BB481E64F87003BFF12FFD /* Pods-photo mathTests-resources.sh */,
+				B0453258953BC7815CA569B04D657F83 /* Pods-photo mathTests-umbrella.h */,
+				8A508E45B06C4F57711769F3C2EC619E /* Pods-photo mathTests.debug.xcconfig */,
+				C7BA8D656268A4C3C5FD6AA4FA3B2DC0 /* Pods-photo mathTests.release.xcconfig */,
+			);
+			name = "Pods-photo mathTests";
+			path = "Target Support Files/Pods-photo mathTests";
+			sourceTree = "<group>";
+		};
+		237462EA2337044F85DAEF6E9165198E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97FD575C87EEF93364758F8C74F6D846 /* CameraView.strings */,
+				78921DBC65B4E52E7AD54662D55998E0 /* CameraViewAssets.xcassets */,
+				45B0F083EA942ACDD99BA409E3351C3F /* ConfirmViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		256479E00CE6F8CDBE7C2D23EB729360 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				287DA405D25E2FE5C4A37B6BB9C25DAA /* Pods-photo math */,
+				036461455F51DC137C7859A956D90533 /* Pods-photo mathTests */,
+				A74FDAC81FD74F28D3794231D1A94E36 /* Pods-photo mathUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		287DA405D25E2FE5C4A37B6BB9C25DAA /* Pods-photo math */ = {
+			isa = PBXGroup;
+			children = (
+				EBC38D052582A0481B751228B591BBAB /* Info.plist */,
+				431AE160DFF5A65D700C58201EC33BE3 /* Pods-photo math.modulemap */,
+				592F761A99F13873BD40BAAFE2B51B1D /* Pods-photo math-acknowledgements.markdown */,
+				84A249EECFB8ADCF5FFCE7B1CAC851E5 /* Pods-photo math-acknowledgements.plist */,
+				B982E581BD143A9301854E1A7ABD080B /* Pods-photo math-dummy.m */,
+				5F291CEBBE1B43AE4E70A8D2FC209534 /* Pods-photo math-frameworks.sh */,
+				9BB4D5A4298D72CD1E1037E442763579 /* Pods-photo math-resources.sh */,
+				BEBAC2A6ED3CF2171D0FAC54B3EC49C4 /* Pods-photo math-umbrella.h */,
+				D822BF88EFF58DBF7E635C428E0EE627 /* Pods-photo math.debug.xcconfig */,
+				15C07AAB40A31046082F748FF594369B /* Pods-photo math.release.xcconfig */,
+			);
+			name = "Pods-photo math";
+			path = "Target Support Files/Pods-photo math";
+			sourceTree = "<group>";
+		};
+		3DDA829C7529360B471980B559BD70D3 /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D485127C52D5D0E2E7679B89F205537 /* CameraGlobals.swift */,
+				A4AF67BB6F67304628C522E2B5469398 /* CameraShot.swift */,
+				E7EB28B0C21A92A60DB6712B2752D313 /* CameraView.swift */,
+				5B107B502966D95D17CEF6C60D831DF3 /* CameraViewController.swift */,
+				ACAEBE3E2FF1DD439EE8F9F87BE93A5B /* CameraViewControllerConstraint.swift */,
+				4E1492EB227DA573882B71D4179C3FA4 /* ConfirmViewController.swift */,
+				79876F2A9112255BCB8FCB1F93505167 /* CropOverlay.swift */,
+				EA65B959C500F9F431749BFC5D8C465D /* ImageCell.swift */,
+				EB14118CD63E0CA627EA0EAA1CD0C42D /* ImageFetcher.swift */,
+				CCB1361B72E8A8736CFBEEE356378DFE /* PermissionsView.swift */,
+				8089681DDBF0DDD954291EE03EFEFE9A /* PhotoLibraryAuthorizer.swift */,
+				77BE2D560BA6A6C3DED5B092F64691B5 /* PhotoLibraryViewController.swift */,
+				B88D1686025A090755E87B04416F96AC /* SingleImageFetcher.swift */,
+				D6978D64F2E2D8A021F13C48716A603D /* SingleImageSaver.swift */,
+				CCE5619A4D5EA47DB5334375404A09E6 /* UIButtonExtensions.swift */,
+				523F2A9CA20B29CB739817719A93EDA1 /* UIViewExtensions.swift */,
+				0CB7CF60A9851B73FFC9C0D12745B583 /* Utilities.swift */,
+				71FF4EEE91963B0F2EA5AE167DF6351F /* VolumeControl.swift */,
+				237462EA2337044F85DAEF6E9165198E /* Resources */,
+				035B7D45FA962E99782D919EC6C5E1F7 /* Support Files */,
+			);
+			name = ALCameraViewController;
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C9D88BFB8CC8F9E7A15C2A1B1862BF39 /* Pods */,
+				CEE17593A12E83318E11D8B19EB06B6F /* Products */,
+				256479E00CE6F8CDBE7C2D23EB729360 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A74FDAC81FD74F28D3794231D1A94E36 /* Pods-photo mathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A986CECDC710D4FD4A11614707C80EE /* Info.plist */,
+				D819A42D1BD61B55AB5312DD76543D39 /* Pods-photo mathUITests.modulemap */,
+				12279745DD58F758A1E08BEB05B2B7FE /* Pods-photo mathUITests-acknowledgements.markdown */,
+				50BAD5BE0877AD9CB1DE3A0EEA1921CF /* Pods-photo mathUITests-acknowledgements.plist */,
+				4ABABFCFB163919B50F5F65538B5CF44 /* Pods-photo mathUITests-dummy.m */,
+				C633C5D702E11970E5185EBCEF0F713A /* Pods-photo mathUITests-frameworks.sh */,
+				7263E5730CCA15BAC796FF324932196D /* Pods-photo mathUITests-resources.sh */,
+				0360A3DD5B21CC24F2B1920ED089C8E0 /* Pods-photo mathUITests-umbrella.h */,
+				B77FBFF0122D85F1C319BAB77D34CAF9 /* Pods-photo mathUITests.debug.xcconfig */,
+				95F676F85207F846CFF8627FA36DCC8C /* Pods-photo mathUITests.release.xcconfig */,
+			);
+			name = "Pods-photo mathUITests";
+			path = "Target Support Files/Pods-photo mathUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D88BFB8CC8F9E7A15C2A1B1862BF39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA829C7529360B471980B559BD70D3 /* ALCameraViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEE17593A12E83318E11D8B19EB06B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9772CBA10FF009ECBBDBE8A30441675 /* ALCameraViewController.framework */,
+				DCBB048462C256E2BF7F51F8D78CC547 /* Pods_photo_math.framework */,
+				770271F513B08EB86AD9397AE3101FB3 /* Pods_photo_mathTests.framework */,
+				DFCC826EE1C95B074B41FBB1DAB64149 /* Pods_photo_mathUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A69A6EDEF9214C06018ECE024069FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BA59E14E0098A5E7F5AA046E2FB493 /* Pods-photo math-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C65239ED0D41E9572F2C89E1E940F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9123AFFF3ED82A5C23EFBCDCF44F9FFA /* Pods-photo mathTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27F76F016316C2D92C5B45E3F9B660D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9528C78FC91D0AABD455430F71F14 /* ALCameraViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E679B43AEBB89DC6416375DFFB7D921F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CA296191061BC2F0D692EB52C4A033 /* Pods-photo mathUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1ED3104C4D78C4899B54F97FC06D0DAC /* Pods-photo math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D2F198B46EF15522AF21C85D5636DA /* Build configuration list for PBXNativeTarget "Pods-photo math" */;
+			buildPhases = (
+				78C09BAC0ACDBE2E393FAD4EFA0889E2 /* Sources */,
+				2E7F744DF49C33E3F598508B1E93FA10 /* Frameworks */,
+				04A69A6EDEF9214C06018ECE024069FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DFC500FDEE057D82F6715030A975E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-photo math";
+			productName = "Pods-photo math";
+			productReference = DCBB048462C256E2BF7F51F8D78CC547 /* Pods_photo_math.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		517DB9FA997579FCE82948DA1291D168 /* Pods-photo mathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F02281A983C52790F84AE45AD336AD /* Build configuration list for PBXNativeTarget "Pods-photo mathUITests" */;
+			buildPhases = (
+				83B2FCCC76B80F59A5A55D9C1FA26978 /* Sources */,
+				40E07DF9FAD36D9982BEEB027E2FE0A2 /* Frameworks */,
+				E679B43AEBB89DC6416375DFFB7D921F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-photo mathUITests";
+			productName = "Pods-photo mathUITests";
+			productReference = DFCC826EE1C95B074B41FBB1DAB64149 /* Pods_photo_mathUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		585EB6627ED8D3D5641DA420AC9E32BB /* Pods-photo mathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E8C5715F98C1A419DE15B04C0A5E1 /* Build configuration list for PBXNativeTarget "Pods-photo mathTests" */;
+			buildPhases = (
+				F10F42FAB9B9E6D5F2F4C3AB54732E83 /* Sources */,
+				FF97C1D19BBD2C429E007B9A45ECFB38 /* Frameworks */,
+				20C65239ED0D41E9572F2C89E1E940F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-photo mathTests";
+			productName = "Pods-photo mathTests";
+			productReference = 770271F513B08EB86AD9397AE3101FB3 /* Pods_photo_mathTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7FAEFEAF68AE19EB2D22369766AF24E /* ALCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD90E44CDD34EB5E733256DD755BB941 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
+			buildPhases = (
+				BAB486A2A6E2C0A5A03FD3435FD75320 /* Sources */,
+				2C64B1D7F92FF76BD0D1CDA8F9EC103B /* Frameworks */,
+				FEBA30AD313107745D4D6F657F125E5D /* Resources */,
+				E27F76F016316C2D92C5B45E3F9B660D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = A9772CBA10FF009ECBBDBE8A30441675 /* ALCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CEE17593A12E83318E11D8B19EB06B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FAEFEAF68AE19EB2D22369766AF24E /* ALCameraViewController */,
+				1ED3104C4D78C4899B54F97FC06D0DAC /* Pods-photo math */,
+				585EB6627ED8D3D5641DA420AC9E32BB /* Pods-photo mathTests */,
+				517DB9FA997579FCE82948DA1291D168 /* Pods-photo mathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBA30AD313107745D4D6F657F125E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC6BE3D236EE941CC400A0CDDE0E1BB /* CameraView.strings in Resources */,
+				E24F342E883FD48A9C0AE77DA41032BC /* CameraViewAssets.xcassets in Resources */,
+				324D3D09812A7CE0217F3FB24A850019 /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C09BAC0ACDBE2E393FAD4EFA0889E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCE12F99390EF61A1B90B0851F44762 /* Pods-photo math-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B2FCCC76B80F59A5A55D9C1FA26978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C6CDF93269206942878D10B432FB3A /* Pods-photo mathUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB486A2A6E2C0A5A03FD3435FD75320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AD103A7308F4575C81A34F31B4AD4C /* ALCameraViewController-dummy.m in Sources */,
+				91BF56F2EE96EC97E18675351C4C9B30 /* CameraGlobals.swift in Sources */,
+				B8D93073BC7B63600BB2052C397F9BAF /* CameraShot.swift in Sources */,
+				0DE2B989EA1F1592E67AED334AAB6B98 /* CameraView.swift in Sources */,
+				1921256E0012189FC4EEE2A11AE2E820 /* CameraViewController.swift in Sources */,
+				C82D76C04578BCDA05C5A6265391B649 /* CameraViewControllerConstraint.swift in Sources */,
+				67BFD91AEE97E523E7CD95D783DD2C02 /* ConfirmViewController.swift in Sources */,
+				D1ADD9FA19AFF58FD32941D28BE1D1DA /* CropOverlay.swift in Sources */,
+				5820152CF7B16F6FF64E13D78467376A /* ImageCell.swift in Sources */,
+				DE1A8D219A174437C79F956E941F2907 /* ImageFetcher.swift in Sources */,
+				19A2983E2CC133E1C50E8FB6AEAC9D9D /* PermissionsView.swift in Sources */,
+				3BD24FAC0C1C25415AC53CDBAC1F57DA /* PhotoLibraryAuthorizer.swift in Sources */,
+				0AFDB91CAB32B63E9877CE50A73792DF /* PhotoLibraryViewController.swift in Sources */,
+				CC4F616136F385FA9CDEA939FA766815 /* SingleImageFetcher.swift in Sources */,
+				F2B32C3D5DDB7C59A06F094526AF7088 /* SingleImageSaver.swift in Sources */,
+				6D4FFBDD1446E07634AC24A82B729C44 /* UIButtonExtensions.swift in Sources */,
+				04A620B8F7A9DF431B022A24B4355E7C /* UIViewExtensions.swift in Sources */,
+				2B7B1C4B141251B7154840885562AA93 /* Utilities.swift in Sources */,
+				EEF987BCFB48224604D3FC617582648B /* VolumeControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10F42FAB9B9E6D5F2F4C3AB54732E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E91D3C8006A2607B11EB80F6CBB9C8D /* Pods-photo mathTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DFC500FDEE057D82F6715030A975E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = D7FAEFEAF68AE19EB2D22369766AF24E /* ALCameraViewController */;
+			targetProxy = 5338D454C7C0EAE9B6E20E3FACF5F4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B813AFE9E94797E562AD372D8758472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77FBFF0122D85F1C319BAB77D34CAF9 /* Pods-photo mathUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo mathUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_mathUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A967107BEF27F6F2362CE015572CADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C07AAB40A31046082F748FF594369B /* Pods-photo math.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo math/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo math/Pods-photo math.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_math;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		785A721F6305264AC3B713DA4E64C4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD22D8ABC20943911EDF00D5955322C /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E27BD26EEA8AFE1411AF22BE629CA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F676F85207F846CFF8627FA36DCC8C /* Pods-photo mathUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo mathUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_mathUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BD1FB7FE958C3C9674ECF9527CDE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A508E45B06C4F57711769F3C2EC619E /* Pods-photo mathTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo mathTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo mathTests/Pods-photo mathTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_mathTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98764EFF7C509CB5EAB0FC79571C624C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD22D8ABC20943911EDF00D5955322C /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CC194B33F1AE54F2DC1B7BAE2EB5432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D822BF88EFF58DBF7E635C428E0EE627 /* Pods-photo math.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo math/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo math/Pods-photo math.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_math;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFA694ABABB5FF1FAD0712ACF0E42C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BA8D656268A4C3C5FD6AA4FA3B2DC0 /* Pods-photo mathTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-photo mathTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-photo mathTests/Pods-photo mathTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_photo_mathTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D2F198B46EF15522AF21C85D5636DA /* Build configuration list for PBXNativeTarget "Pods-photo math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC194B33F1AE54F2DC1B7BAE2EB5432 /* Debug */,
+				5A967107BEF27F6F2362CE015572CADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F02281A983C52790F84AE45AD336AD /* Build configuration list for PBXNativeTarget "Pods-photo mathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B813AFE9E94797E562AD372D8758472 /* Debug */,
+				7E27BD26EEA8AFE1411AF22BE629CA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E8C5715F98C1A419DE15B04C0A5E1 /* Build configuration list for PBXNativeTarget "Pods-photo mathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD1FB7FE958C3C9674ECF9527CDE4CF /* Debug */,
+				DFA694ABABB5FF1FAD0712ACF0E42C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD90E44CDD34EB5E733256DD755BB941 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98764EFF7C509CB5EAB0FC79571C624C /* Debug */,
+				785A721F6305264AC3B713DA4E64C4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
-        <!--Camera View Controller-->
+        <!--Camera Two View Controller-->
         <scene sceneID="sUI-a6-06r">
             <objects>
-                <viewController id="Btr-HA-jA0" customClass="CameraViewController" customModule="photo_math" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Btr-HA-jA0" customClass="CameraTwoViewController" customModule="photo_math" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SJD-87-Y4o"/>
                         <viewControllerLayoutGuide type="bottom" id="YRW-eH-s9y"/>
