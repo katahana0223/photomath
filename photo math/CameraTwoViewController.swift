@@ -36,6 +36,7 @@ class CameraTwoViewController: UIViewController {
         present(cameraViewController, animated: true, completion: nil)
         
         
+        
     }
     //ほぼ使わない
     override func didReceiveMemoryWarning() {
