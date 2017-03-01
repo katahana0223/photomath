@@ -598,7 +598,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Q23333XP;
 				INFOPLIST_FILE = "photo math/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -612,7 +611,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Q23333XP;
 				INFOPLIST_FILE = "photo math/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

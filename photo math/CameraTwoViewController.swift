@@ -16,9 +16,7 @@ class CameraTwoViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         let croppingEnabled: Bool = true
-        let cameraViewController = CameraViewController(croppingEnabled: croppingEnabled)
-            //クロージャの中で使える引数　＝ 仮引数
-        { (image: UIImage,asset) in
+        let cameraViewController = CameraViewController(croppingEnabled: croppingEnabled) {(image, asset) in
             //クロージャ「文」ここから
             
             //カメラViewが閉じる時のクロージャ
@@ -26,7 +24,10 @@ class CameraTwoViewController: UIViewController {
             // Do something with your image here.
             // If cropping is enabled this image will be the cropped version
             
-            UserDefaults.standard.set(image, forKey: "image")
+            //UIImage -> NSData
+            //PNG形式
+            let pngData = UIImagePNGRepresentation(image!)
+            UserDefaults.standard.set(pngData, forKey: "image")
             self.dismiss(animated: true, completion: nil)
             
             //クロージャの「文」ここまで

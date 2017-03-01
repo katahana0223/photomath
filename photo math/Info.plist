@@ -30,6 +30,8 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>このアプリはカメラを使います</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>許可してちょ</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
