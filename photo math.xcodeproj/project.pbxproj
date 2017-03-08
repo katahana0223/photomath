@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1E51931E6FF41600FD8472 /* DigitDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E51921E6FF41600FD8472 /* DigitDetectorViewController.swift */; };
 		2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */; };
 		2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */; };
 		2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */; };
@@ -14,6 +15,26 @@
 		2BA2AEFE1E2F865F0093C4BE /* photo_mathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AEFD1E2F865F0093C4BE /* photo_mathTests.swift */; };
 		2BA2AF091E2F865F0093C4BE /* photo_mathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */; };
 		2BC4AD2F1E54642F0078E267 /* CameraTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */; };
+		2BF82FC81E6FE862008E01A9 /* GetMNISTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC11E6FE862008E01A9 /* GetMNISTData.swift */; };
+		2BF82FC91E6FE862008E01A9 /* MNISTSingleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC21E6FE862008E01A9 /* MNISTSingleLayer.swift */; };
+		2BF82FCA1E6FE862008E01A9 /* MNISTDeepCNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC31E6FE862008E01A9 /* MNISTDeepCNN.swift */; };
+		2BF82FCB1E6FE862008E01A9 /* SlimMPSCNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC41E6FE862008E01A9 /* SlimMPSCNN.swift */; };
+		2BF82FCC1E6FE862008E01A9 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC51E6FE862008E01A9 /* DrawView.swift */; };
+		2BF82FCD1E6FE862008E01A9 /* atomics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF82FC71E6FE862008E01A9 /* atomics.m */; };
+		2BF82FDC1E6FED95008E01A9 /* t10k-images-idx3-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FCE1E6FED95008E01A9 /* t10k-images-idx3-ubyte.data */; };
+		2BF82FDD1E6FED95008E01A9 /* t10k-labels-idx1-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FCF1E6FED95008E01A9 /* t10k-labels-idx1-ubyte.data */; };
+		2BF82FDE1E6FED95008E01A9 /* train-images-idx3-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD01E6FED95008E01A9 /* train-images-idx3-ubyte.data */; };
+		2BF82FDF1E6FED95008E01A9 /* train-labels-idx1-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD11E6FED95008E01A9 /* train-labels-idx1-ubyte.data */; };
+		2BF82FE01E6FED95008E01A9 /* bias_conv1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD21E6FED95008E01A9 /* bias_conv1.dat */; };
+		2BF82FE11E6FED95008E01A9 /* bias_conv2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD31E6FED95008E01A9 /* bias_conv2.dat */; };
+		2BF82FE21E6FED95008E01A9 /* bias_fc1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD41E6FED95008E01A9 /* bias_fc1.dat */; };
+		2BF82FE31E6FED95008E01A9 /* bias_fc2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD51E6FED95008E01A9 /* bias_fc2.dat */; };
+		2BF82FE41E6FED95008E01A9 /* weights_conv1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD61E6FED95008E01A9 /* weights_conv1.dat */; };
+		2BF82FE51E6FED95008E01A9 /* weights_conv2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD71E6FED95008E01A9 /* weights_conv2.dat */; };
+		2BF82FE61E6FED95008E01A9 /* weights_fc1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD81E6FED95008E01A9 /* weights_fc1.dat */; };
+		2BF82FE71E6FED95008E01A9 /* weights_fc2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FD91E6FED95008E01A9 /* weights_fc2.dat */; };
+		2BF82FE81E6FED95008E01A9 /* bias_NN.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FDA1E6FED95008E01A9 /* bias_NN.dat */; };
+		2BF82FE91E6FED95008E01A9 /* weights_NN.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2BF82FDB1E6FED95008E01A9 /* weights_NN.dat */; };
 		36AC300B28FD37D22BFD31F3 /* Pods_photo_mathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DADEBFC21965C14B5DC41F /* Pods_photo_mathTests.framework */; };
 		4381F0985BFA7C5814228D21 /* Pods_photo_math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E253D79BCD113EE4B37904E /* Pods_photo_math.framework */; };
 		C4EEF2583C82BA92A812DF7B /* Pods_photo_mathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FE04787D259F7D96C4701F /* Pods_photo_mathUITests.framework */; };
@@ -41,6 +62,7 @@
 		12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo math.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo math/Pods-photo math.release.xcconfig"; sourceTree = "<group>"; };
 		1B83DE49F391E9A41C342DB8 /* Pods-photo mathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathUITests/Pods-photo mathUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo math.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo math/Pods-photo math.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1E51921E6FF41600FD8472 /* DigitDetectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitDetectorViewController.swift; sourceTree = "<group>"; };
 		2BA2AEE51E2F865E0093C4BE /* photo math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +76,28 @@
 		2BA2AF081E2F865F0093C4BE /* photo_mathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_mathUITests.swift; sourceTree = "<group>"; };
 		2BA2AF0A1E2F865F0093C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTwoViewController.swift; sourceTree = "<group>"; };
+		2BF82FC01E6FE861008E01A9 /* photo math-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photo math-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BF82FC11E6FE862008E01A9 /* GetMNISTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMNISTData.swift; sourceTree = "<group>"; };
+		2BF82FC21E6FE862008E01A9 /* MNISTSingleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTSingleLayer.swift; sourceTree = "<group>"; };
+		2BF82FC31E6FE862008E01A9 /* MNISTDeepCNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTDeepCNN.swift; sourceTree = "<group>"; };
+		2BF82FC41E6FE862008E01A9 /* SlimMPSCNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlimMPSCNN.swift; sourceTree = "<group>"; };
+		2BF82FC51E6FE862008E01A9 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		2BF82FC61E6FE862008E01A9 /* atomics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atomics.h; sourceTree = "<group>"; };
+		2BF82FC71E6FE862008E01A9 /* atomics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = atomics.m; sourceTree = "<group>"; };
+		2BF82FCE1E6FED95008E01A9 /* t10k-images-idx3-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-images-idx3-ubyte.data"; sourceTree = "<group>"; };
+		2BF82FCF1E6FED95008E01A9 /* t10k-labels-idx1-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels-idx1-ubyte.data"; sourceTree = "<group>"; };
+		2BF82FD01E6FED95008E01A9 /* train-images-idx3-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images-idx3-ubyte.data"; sourceTree = "<group>"; };
+		2BF82FD11E6FED95008E01A9 /* train-labels-idx1-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels-idx1-ubyte.data"; sourceTree = "<group>"; };
+		2BF82FD21E6FED95008E01A9 /* bias_conv1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bias_conv1.dat; sourceTree = "<group>"; };
+		2BF82FD31E6FED95008E01A9 /* bias_conv2.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bias_conv2.dat; sourceTree = "<group>"; };
+		2BF82FD41E6FED95008E01A9 /* bias_fc1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bias_fc1.dat; sourceTree = "<group>"; };
+		2BF82FD51E6FED95008E01A9 /* bias_fc2.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bias_fc2.dat; sourceTree = "<group>"; };
+		2BF82FD61E6FED95008E01A9 /* weights_conv1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_conv1.dat; sourceTree = "<group>"; };
+		2BF82FD71E6FED95008E01A9 /* weights_conv2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_conv2.dat; sourceTree = "<group>"; };
+		2BF82FD81E6FED95008E01A9 /* weights_fc1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_fc1.dat; sourceTree = "<group>"; };
+		2BF82FD91E6FED95008E01A9 /* weights_fc2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_fc2.dat; sourceTree = "<group>"; };
+		2BF82FDA1E6FED95008E01A9 /* bias_NN.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bias_NN.dat; sourceTree = "<group>"; };
+		2BF82FDB1E6FED95008E01A9 /* weights_NN.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = weights_NN.dat; sourceTree = "<group>"; };
 		664A2BF447A3B02D88841009 /* Pods-photo mathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo mathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo mathTests/Pods-photo mathTests.release.xcconfig"; sourceTree = "<group>"; };
 		76FE04787D259F7D96C4701F /* Pods_photo_mathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_mathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DADEBFC21965C14B5DC41F /* Pods_photo_mathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_mathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,12 +158,15 @@
 		2BA2AEE71E2F865E0093C4BE /* photo math */ = {
 			isa = PBXGroup;
 			children = (
+				2BF82FBF1E6FE7C5008E01A9 /* WordRecognition */,
 				2BA2AEE81E2F865E0093C4BE /* AppDelegate.swift */,
 				2BA2AEEA1E2F865E0093C4BE /* ViewController.swift */,
 				2BC4AD2E1E54642F0078E267 /* CameraTwoViewController.swift */,
+				2B1E51921E6FF41600FD8472 /* DigitDetectorViewController.swift */,
 				2BA2AEEC1E2F865E0093C4BE /* Main.storyboard */,
 				2BA2AEF11E2F865E0093C4BE /* LaunchScreen.storyboard */,
 				2BA2AEF41E2F865E0093C4BE /* Info.plist */,
+				2BF82FC01E6FE861008E01A9 /* photo math-Bridging-Header.h */,
 			);
 			path = "photo math";
 			sourceTree = "<group>";
@@ -140,6 +187,34 @@
 				2BA2AF0A1E2F865F0093C4BE /* Info.plist */,
 			);
 			path = "photo mathUITests";
+			sourceTree = "<group>";
+		};
+		2BF82FBF1E6FE7C5008E01A9 /* WordRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				2BF82FCE1E6FED95008E01A9 /* t10k-images-idx3-ubyte.data */,
+				2BF82FCF1E6FED95008E01A9 /* t10k-labels-idx1-ubyte.data */,
+				2BF82FD01E6FED95008E01A9 /* train-images-idx3-ubyte.data */,
+				2BF82FD11E6FED95008E01A9 /* train-labels-idx1-ubyte.data */,
+				2BF82FD21E6FED95008E01A9 /* bias_conv1.dat */,
+				2BF82FD31E6FED95008E01A9 /* bias_conv2.dat */,
+				2BF82FD41E6FED95008E01A9 /* bias_fc1.dat */,
+				2BF82FD51E6FED95008E01A9 /* bias_fc2.dat */,
+				2BF82FD61E6FED95008E01A9 /* weights_conv1.dat */,
+				2BF82FD71E6FED95008E01A9 /* weights_conv2.dat */,
+				2BF82FD81E6FED95008E01A9 /* weights_fc1.dat */,
+				2BF82FD91E6FED95008E01A9 /* weights_fc2.dat */,
+				2BF82FDA1E6FED95008E01A9 /* bias_NN.dat */,
+				2BF82FDB1E6FED95008E01A9 /* weights_NN.dat */,
+				2BF82FC11E6FE862008E01A9 /* GetMNISTData.swift */,
+				2BF82FC21E6FE862008E01A9 /* MNISTSingleLayer.swift */,
+				2BF82FC31E6FE862008E01A9 /* MNISTDeepCNN.swift */,
+				2BF82FC41E6FE862008E01A9 /* SlimMPSCNN.swift */,
+				2BF82FC51E6FE862008E01A9 /* DrawView.swift */,
+				2BF82FC61E6FE862008E01A9 /* atomics.h */,
+				2BF82FC71E6FE862008E01A9 /* atomics.m */,
+			);
+			name = WordRecognition;
 			sourceTree = "<group>";
 		};
 		532C109F5FD2AA299B46CE30 /* Pods */ = {
@@ -243,6 +318,7 @@
 					2BA2AEE41E2F865E0093C4BE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 43Q23333XP;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					2BA2AEF81E2F865F0093C4BE = {
@@ -282,8 +358,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF82FDD1E6FED95008E01A9 /* t10k-labels-idx1-ubyte.data in Resources */,
+				2BF82FDF1E6FED95008E01A9 /* train-labels-idx1-ubyte.data in Resources */,
+				2BF82FE81E6FED95008E01A9 /* bias_NN.dat in Resources */,
+				2BF82FE21E6FED95008E01A9 /* bias_fc1.dat in Resources */,
 				2BA2AEF31E2F865E0093C4BE /* LaunchScreen.storyboard in Resources */,
+				2BF82FE11E6FED95008E01A9 /* bias_conv2.dat in Resources */,
 				2BA2AEEE1E2F865E0093C4BE /* Main.storyboard in Resources */,
+				2BF82FE61E6FED95008E01A9 /* weights_fc1.dat in Resources */,
+				2BF82FE51E6FED95008E01A9 /* weights_conv2.dat in Resources */,
+				2BF82FE01E6FED95008E01A9 /* bias_conv1.dat in Resources */,
+				2BF82FE71E6FED95008E01A9 /* weights_fc2.dat in Resources */,
+				2BF82FE91E6FED95008E01A9 /* weights_NN.dat in Resources */,
+				2BF82FDC1E6FED95008E01A9 /* t10k-images-idx3-ubyte.data in Resources */,
+				2BF82FE31E6FED95008E01A9 /* bias_fc2.dat in Resources */,
+				2BF82FDE1E6FED95008E01A9 /* train-images-idx3-ubyte.data in Resources */,
+				2BF82FE41E6FED95008E01A9 /* weights_conv1.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +537,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA2AEEB1E2F865E0093C4BE /* ViewController.swift in Sources */,
+				2BF82FC91E6FE862008E01A9 /* MNISTSingleLayer.swift in Sources */,
+				2BF82FCC1E6FE862008E01A9 /* DrawView.swift in Sources */,
 				2BA2AEE91E2F865E0093C4BE /* AppDelegate.swift in Sources */,
+				2B1E51931E6FF41600FD8472 /* DigitDetectorViewController.swift in Sources */,
+				2BF82FCD1E6FE862008E01A9 /* atomics.m in Sources */,
+				2BF82FCA1E6FE862008E01A9 /* MNISTDeepCNN.swift in Sources */,
+				2BF82FC81E6FE862008E01A9 /* GetMNISTData.swift in Sources */,
+				2BF82FCB1E6FE862008E01A9 /* SlimMPSCNN.swift in Sources */,
 				2BC4AD2F1E54642F0078E267 /* CameraTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,11 +695,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F5293A07EB251686617984E /* Pods-photo math.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 43Q23333XP;
 				INFOPLIST_FILE = "photo math/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-math";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "photo math/photo math-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -611,11 +711,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12307B5A2C6F70BA7A415056 /* Pods-photo math.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 43Q23333XP;
 				INFOPLIST_FILE = "photo math/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lifeistech.photo-math";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "photo math/photo math-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
