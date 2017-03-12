@@ -12,6 +12,8 @@ class DigitDetectorViewController: UIViewController {
     var deep = false
     var commandQueue: MTLCommandQueue!
     var device: MTLDevice!
+    var number: Int = 0
+    @IBOutlet var label: UILabel!
     
     // Networks we have
     var neuralNetwork: MNIST_Full_LayerNN? = nil
@@ -30,6 +32,7 @@ class DigitDetectorViewController: UIViewController {
     @IBOutlet weak var digitView: DrawView!
     @IBOutlet weak var predictionLabel: UILabel!
     @IBOutlet weak var accuracyLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,13 +53,16 @@ class DigitDetectorViewController: UIViewController {
         neuralNetworkDeep  = MNIST_Deep_ConvNN(withCommandQueue: commandQueue)
         runningNet = neuralNetwork
     }
-    
     //押したら数字が表示されるボタンだヨッ！
     // Do any additional setup after loading the view.
+    
+    @IBAction func plus(){
+        number = number+1
+        label.text = String(number)
+        
     @IBAction func tappedDetectDigit(_ sender: UIButton) {
         // get the digitView context so we can get the pixel values from it to intput to network
         let context = digitView.getViewContext()
-        
         // validate NeuralNetwork was initialized properly
         assert(runningNet != nil)
         
@@ -93,17 +99,18 @@ class DigitDetectorViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destinationViewController.
+ // Pass the selected object to the new view controller.
+ }
+ */
+
+
