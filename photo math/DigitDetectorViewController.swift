@@ -81,6 +81,9 @@ class DigitDetectorViewController: UIViewController {
         predictionLabel.text = String(shiki)
         
     }
+    @IBAction func equal(){
+        predictionLabel.text = String(keisan(shiki))
+    }
     @IBAction func tappedDetectDigit(_ sender: UIButton) {
         // get the digitView context so we can get the pixel values from it to intput to network
         let context = digitView.getViewContext()
@@ -109,7 +112,7 @@ class DigitDetectorViewController: UIViewController {
         // clear the digitview
         digitView.lines = []
         digitView.setNeedsDisplay()
-        predictionLabel.isHidden = true
+    
         
     }
     @IBAction func tappedreset(){
@@ -121,11 +124,6 @@ class DigitDetectorViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         
-    }
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        label.text=String(keisan(textField.text!))
-        textField.resignFirstResponder()
-        return true
     }
     
     
